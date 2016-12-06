@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up_actvity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    tools:context="testing.example.com.r_edu.SignInActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0.2"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/activity_signin_image_view"
+                    android:layout_height="180dp"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/ic_saving_money_for_study" />
+
+            </LinearLayout>
+
+            <TextView
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/activity_signin_app_name_text"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:text="@string/sign_up"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center|top"
+                android:layout_height="0dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:backgroundTint="@android:color/white"
+                    android:hint="@string/full_name"
+                    android:id="@+id/activity_signup_full_name_edit_text"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="280dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColorLink="@android:color/white"
+                    android:textCursorDrawable="@null" />
+
+                <EditText
+                    android:backgroundTint="@android:color/white"
+                    android:hint="@string/enter_email"
+                    android:id="@+id/activity_signup_email_edit_text"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="280dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColorLink="@android:color/white"
+                    android:textCursorDrawable="@null" />
+
+
+                <EditText
+                    android:backgroundTint="@android:color/white"
+                    android:hint="@string/enter_password"
+                    android:id="@+id/activity_signup_password_edit_text"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="280dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColorLink="@android:color/white"
+                    android:textCursorDrawable="@null" />
+
+
+                <EditText
+                    android:backgroundTint="@android:color/white"
+                    android:hint="@string/enter_password_again"
+                    android:id="@+id/activity_signup_password_confirm_edit_text"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="280dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColorLink="@android:color/white"
+                    android:textCursorDrawable="@null" />
+
+                <EditText
+                    android:backgroundTint="@android:color/white"
+                    android:hint="@string/enter_phone"
+                    android:id="@+id/activity_signup_phone_edit_text"
+                    android:inputType="phone"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="280dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColorLink="@android:color/white"
+                    android:textCursorDrawable="@null" />
+
+                <Button
+                    android:background="@drawable/button_ripple"
+                    android:id="@+id/activity_signup_button"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="64dp"
+                    android:paddingRight="64dp"
+                    android:shadowColor="@android:color/white"
+                    android:text="@string/signup"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
