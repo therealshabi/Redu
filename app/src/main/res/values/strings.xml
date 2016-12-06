@@ -12,4 +12,9 @@
     <string name="enter_password_again">Confirm Password</string>
     <string name="enter_phone">Enter Contact Details</string>
     <string name="signup">Sign Up</string>
+    <string name="activity_redu_main_screen_cs">Computer Science</string>
+    <string name="activity_redu_main_screen_ece">Electronics</string>
+    <string name="activity_redu_main_screen_com">Commerce</string>
+    <string name="activity_redu_main_screen_cp">Competitive Exams</string>
+    <string name="activity_redu_main_screen_areas_of_interest">Area of Interest</string>
 </resources>
